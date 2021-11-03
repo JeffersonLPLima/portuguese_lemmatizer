@@ -44,4 +44,7 @@ class Lemmatizer():
 
 
 if __name__ == '__main__':
-	import IPython; IPython.embed()
+	l = Lemmatizer()
+	w = 'carros'
+	print("word:", w)
+	print("lemma:", l.get_lemma('carros'))
