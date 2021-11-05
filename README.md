@@ -13,5 +13,6 @@ l.get_lemma('carros')
 ### Files:
 
 `pt_lemma.py` :  Simple class to perform lemmatization
+
 `./data/`:  data used to generate lemma dict
 
