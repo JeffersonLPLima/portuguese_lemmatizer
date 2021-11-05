@@ -2,6 +2,7 @@
 
 ### Example
 ```
+from pt_lemma import Lemmatizer
 
 l = Lemmatizer()
 l.get_lemma('carrinho')  #all words must be unidecoded and lowercased
