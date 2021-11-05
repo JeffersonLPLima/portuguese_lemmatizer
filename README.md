@@ -2,8 +2,11 @@
 
 ### Example
 ```
+
 l = Lemmatizer()
-l.get_lemma('carrinho')
+l.get_lemma('carrinho')  #all words must be unidecoded and lowercased
+>> 'carro'
+l.get_lemma('carros')
 >> 'carro'
 
 ```
