@@ -1,5 +1,7 @@
 ## Fast Portuguese Lemmatizer
+Extract lemma* from portuguese words.
 
+*_A lemma is a word that stands at the head of a definition in a dictionary._ [Wikipedia](https://simple.wikipedia.org/wiki/Lemma_(linguistics)#:~:text=A%20lemma%20is%20a%20word,you%20find%20in%20the%20dictionary.)
 ### Example
 ```
 from pt_lemma import Lemmatizer
